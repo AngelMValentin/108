@@ -1,19 +1,11 @@
 import './styles/footer.css';
 
-function footer() {
+function Footer() {
     return (
-        <div>
-            <nav>
-                <div class="footer-menu">
-                    <a href="">log in</a>
-                    <a href="">search</a>
-                    <a href="">subscribe</a>
-                    <a href="">menu</a>
-
-                </div>
-            </nav>
+        <div className='footer'>
+            <h1>Created by Angel</h1>
         </div>
     );
 }
 
-export default footer;
+export default Footer;
