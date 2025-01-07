@@ -2,19 +2,29 @@
 
 .productContainer {
     background-color: lightskyblue;
+    border-width: 3px;
+    border-color: white;
     border-radius: 10px;
     padding: 10px;
 
     height: 350px;
-    width: 250px;
+    width: 270px;
 
     display: inline-block;
     margin: 10px 10px 0;
 
 }
 
+.productContainer:hover {
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 2px 2px 10px 1px #a5a2a2;
+    transform: scale(1.03);
+}
+
 .productContainer img {
     width: 250px;
+    max-height: 250px;
 }
 
 .productContainer h3 {
