@@ -1,0 +1,40 @@
+.admin {
+    background-color: lightgray;
+}
+
+.form-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form1 {
+    width: 500px;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.form1 h3 {
+    padding-bottom: 20px;
+}
+
+.form2 {
+    width: 400px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.form2 h3 {
+    padding-bottom: 20px;
+}
+
+.couponBtnDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.couponBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

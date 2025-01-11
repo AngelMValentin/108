@@ -7,7 +7,7 @@
     border-radius: 10px;
     padding: 10px;
 
-    height: 350px;
+    height: 360px;
     width: 270px;
 
     display: inline-block;
@@ -29,4 +29,15 @@
 
 .productContainer h3 {
     margin: 0;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
