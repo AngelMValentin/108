@@ -13,49 +13,49 @@ const dummyData = [
     {
         "title": "2",
         "category": "",
-        "price": 13.99,
+        "price": 13.123,
         "image": "https://picsum.photos/200",
         "_id": "2"
     },
     {
         "title": "3",
         "category": "",
-        "price": 14.99,
+        "price": 14.456,
         "image": "https://picsum.photos/200",
         "_id": "3"
     },
     {
         "title": "4",
         "category": "",
-        "price": 15.99,
+        "price": 15.789,
         "image": "https://picsum.photos/200",
         "_id": "4"
     },
     {
         "title": "1",
         "category": "",
-        "price": 12.99,
+        "price": 16.123,
         "image": "https://picsum.photos/200",
         "_id": "1"
     },
     {
         "title": "2",
         "category": "",
-        "price": 13.99,
+        "price": 17.456,
         "image": "https://picsum.photos/200",
         "_id": "2"
     },
     {
         "title": "3",
         "category": "",
-        "price": 14.99,
+        "price": 18.789,
         "image": "https://picsum.photos/200",
         "_id": "3"
     },
     {
         "title": "4",
         "category": "",
-        "price": 15.99,
+        "price": 19.159,
         "image": "https://picsum.photos/200",
         "_id": "4"
     }
