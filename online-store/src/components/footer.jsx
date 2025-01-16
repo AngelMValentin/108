@@ -3,7 +3,8 @@ import './styles/footer.css';
 function Footer() {
     return (
         <div className='footer'>
-            <h1>Created by Angel</h1>
+            <p> <span className='footerSpan'>© 2025 Copyright: XYZCompany.com</span> </p>
+            <p>Created by Angel</p>
         </div>
     );
 }

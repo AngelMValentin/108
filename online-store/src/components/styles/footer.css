@@ -1,6 +1,17 @@
 .footer {
     background-color: gray;
+    text-align: center;
+    padding: 10px 0;
 }
 .footer h1 {
+    margin: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footerSpan {
+    font-weight: bold;
     margin: 0;
 }

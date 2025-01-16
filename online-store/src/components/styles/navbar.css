@@ -9,3 +9,10 @@
 .checkoutBtn {
     margin-right: 5px;
 }
+
+.companyLogo {
+    height: 75px;
+    width: 75px;
+    margin: 0;
+    padding: 0;
+}
