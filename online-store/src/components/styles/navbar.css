@@ -1,3 +1,11 @@
 .navbar {
     background-color: lightslategray;
 }
+
+.cartBtn {
+    margin-left: 10px;
+}
+
+.checkoutBtn {
+    margin-right: 5px;
+}

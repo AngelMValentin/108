@@ -32,7 +32,7 @@ function Navbar() {
                             <Link className="nav-link" to='/admin' >Admin</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to='/cart' >Cart</Link>
+                            <Link className="nav-link" to='/cart' >{cart.length}</Link>
                         </li>
                     </ul>
                 </div>
@@ -40,8 +40,8 @@ function Navbar() {
                     <button className='btn btn-outline-info'>
                         {user.name}
                     </button>
-                    <Link class="btn btn-info" to='/cart'>
-                        {cart.length}
+                    <Link class="btn btn-info cartBtn" to='/cart'>
+                    <span class="badge rounded-pill text-bg-light checkoutBtn">{cart.length}</span>Cart
                     </Link>
                 </form>
             </div>
