@@ -74,7 +74,6 @@ function Admin() {
 
     return (
         <div className="admin">
-            <h1>This is the Admin Page</h1>
             <div className='form-container'>
                 <div className='form1'>
                     <h3>Register Product</h3>

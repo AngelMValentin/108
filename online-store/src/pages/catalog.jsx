@@ -35,7 +35,6 @@ function Catalog() {
 
     return (
         <div className="catalog">
-            <h1>Check out our amazing catalog!</h1>
 
             <div className="filter">
                 <button onClick={All} className="btn btn-info cat-btn">All</button>
