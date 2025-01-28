@@ -12,11 +12,11 @@ function Catalog() {
     const [categories, setCategories] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState('');
 
-    function loadData() {
-        const prods = dataService.getProducts();
+    async function loadData() {
+        const prods = await dataService.getProducts();
         setAllProducts(prods);
 
-        const cats = dataService.getCategories();
+        const cats = await dataService.getCategories();
         setCategories(cats);
     }
 
